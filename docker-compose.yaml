@@ -99,7 +99,7 @@ services:
     container_name: node-chatgpt-api
     restart: unless-stopped
     environment:
-      - OPENAI_API_KEY=
+      - OPENAI_API_KEY=c2stUEFoSDZyZnBlOHpsRUdTQWt4UFpUM0JsYmtGSmMyR0dQMEdhR3h5WkV1OEVYOXpo
     ports:
       - "3000:3000"
     networks:
