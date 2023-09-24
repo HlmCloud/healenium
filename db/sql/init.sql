@@ -1,2 +1,2 @@
-CREATE SCHEMA healenium AUTHORIZATION healenium_user;
-GRANT USAGE ON SCHEMA healenium TO healenium_user;
+CREATE SCHEMA healenium AUTHORIZATION hlm_user;
+GRANT USAGE ON SCHEMA healenium TO hlm_user;
