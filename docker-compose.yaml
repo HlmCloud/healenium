@@ -13,8 +13,8 @@ services:
       - ./postgres_data/:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=healenium
-      - POSTGRES_USER=healenium_user
-      - POSTGRES_PASSWORD=YDk2nmNs4s9aCP6K
+      - POSTGRES_USER=hlm_user
+      - POSTGRES_PASSWORD=WeLQPIXacQoJ8owl
     networks:
       - healenium
 
@@ -29,8 +29,8 @@ services:
     environment:
       - SPRING_POSTGRES_DB=healenium
       - SPRING_POSTGRES_SCHEMA=healenium
-      - SPRING_POSTGRES_USER=healenium_user
-      - SPRING_POSTGRES_PASSWORD=YDk2nmNs4s9aCP6K
+      - SPRING_POSTGRES_USER=hlm_user
+      - SPRING_POSTGRES_PASSWORD=WeLQPIXacQoJ8owl
       - SPRING_POSTGRES_DB_HOST=postgres-db
       - KEY_SELECTOR_URL=false
       - COLLECT_METRICS=true
@@ -84,8 +84,8 @@ services:
     environment:
       - SPRING_POSTGRES_DB=healenium
       - SPRING_POSTGRES_SCHEMA=healenium
-      - SPRING_POSTGRES_USER=healenium_user
-      - SPRING_POSTGRES_PASSWORD=YDk2nmNs4s9aCP6K
+      - SPRING_POSTGRES_USER=hlm_user
+      - SPRING_POSTGRES_PASSWORD=WeLQPIXacQoJ8owl
       - SPRING_POSTGRES_DB_HOST=postgres-db
       - HLM_BACKEND_SERVICE=http://healenium:7878
       - HLM_LOG_LEVEL=debug
